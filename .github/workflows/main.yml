@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
+    name: Check code quality
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install PHP
+        run: echo "PHP_BINARY=$(sudo ./scripts/ci/download_php.sh | tail -1)" >> $GITHUB_ENV
+
+      - name: PHPStan analysis
+        run: |
+          wget https://getcomposer.org/download/latest-stable/composer.phar
+          $PHP_BINARY composer.phar install
+          ./scripts/phpstan
