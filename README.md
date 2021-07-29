@@ -9,11 +9,11 @@ Modern version of pocketmine forms API, ported to PHP 8.0+ with high quality cod
 ## Code samples
 
 + [ModalForm](#modalform)
-    - [Using ModalForm to represent "yes" / "no" button clicks as `bool` in closure](#using-modalform-to-represent--yes-----no--button-clicks-as--bool--in-closure)
+    - [Using ModalForm to represent "yes" / "no" button clicks as `bool` in closure](#using-modalform-to-represent-yes--no-button-clicks-as-bool-in-closure)
     - [Short version of ModalForm to confirm any action](#short-version-of-modalform-to-confirm-any-action)
 + [MenuForm](#menuform)
     - [Using MenuForm to display buttons with icons from URL and path](#using-menuform-to-display-buttons-with-icons-from-url-and-path)
-    - [Creating MenuForm from array of strings (i.e. from `string[]`) with modern syntax of matching button clicks](#creating-menuform-from-array-of-strings--ie-from--string-----with-modern-syntax-of-matching-button-clicks)
+    - [Creating MenuForm from array of strings (i.e. from `string[]`) with modern syntax of matching button clicks](#creating-menuform-from-array-of-strings-ie-from-string-with-modern-syntax-of-matching-button-clicks)
     - [Appending MenuForm with new options to handle different permissions](#appending-menuform-with-new-options-to-handle-different-permissions)
 + [CustomForm](#customform)
     - [Using CustomForm with strict-typed API](#using-customform-with-strict-typed-api)
