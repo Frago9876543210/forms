@@ -1,7 +1,7 @@
 {
    "name": "frago9876543210/forms",
    "require": {
-      "phpstan/phpstan": "0.12.93",
+      "phpstan/phpstan": "0.12.94",
       "pocketmine/pocketmine-mp": "dev-master",
       "phpstan/phpstan-strict-rules": "0.12.10",
       "phpstan/extension-installer": "1.1.0"
