@@ -3,7 +3,7 @@
    "require": {
       "phpstan/phpstan": "0.12.96",
       "pocketmine/pocketmine-mp": "dev-master",
-      "phpstan/phpstan-strict-rules": "0.12.10",
+      "phpstan/phpstan-strict-rules": "0.12.11",
       "phpstan/extension-installer": "1.1.0"
    },
    "autoload": {
