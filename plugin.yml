@@ -3,5 +3,3 @@ main: forms\bootstrap\Main
 src-namespace-prefix: forms
 version: 1.0.0
 api: 4.0.0
-extensions:
-  Core: ">=8.0.0"
