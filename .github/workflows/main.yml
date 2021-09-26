@@ -21,4 +21,4 @@ jobs:
         run: |
           wget https://getcomposer.org/download/latest-stable/composer.phar
           $PHP_BINARY composer.phar install
-          ./scripts/phpstan
+          $PHP_BINARY vendor/bin/phpstan.phar analyze
