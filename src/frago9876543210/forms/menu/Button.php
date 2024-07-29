@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace forms\menu;
+namespace frago9876543210\forms\menu;
 
 class Button implements \JsonSerializable{
 

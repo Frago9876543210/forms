@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace forms;
+namespace frago9876543210\forms;
 
-use forms\element\BaseElement;
-use forms\element\BaseSelector;
-use forms\element\BaseSelectorOutput;
-use forms\element\Dropdown;
-use forms\element\Input;
-use forms\element\Label;
-use forms\element\Slider;
-use forms\element\StepSlider;
-use forms\element\Toggle;
+use frago9876543210\forms\element\BaseElement;
+use frago9876543210\forms\element\BaseSelector;
+use frago9876543210\forms\element\BaseSelectorOutput;
+use frago9876543210\forms\element\Dropdown;
+use frago9876543210\forms\element\Input;
+use frago9876543210\forms\element\Label;
+use frago9876543210\forms\element\Slider;
+use frago9876543210\forms\element\StepSlider;
+use frago9876543210\forms\element\Toggle;
 use function array_shift;
 use function is_null;
 

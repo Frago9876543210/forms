@@ -1,14 +1,16 @@
 {
    "name": "frago9876543210/forms",
+   "require": {
+        "pocketmine/pocketmine-mp": "^5.0"
+    },
    "require-dev": {
+      "phpstan/extension-installer": "^1.0",
       "phpstan/phpstan": "^1.10",
-      "pocketmine/pocketmine-mp": "5.0.0",
-      "phpstan/phpstan-strict-rules": "^1.0",
-      "phpstan/extension-installer": "^1.0"
+      "phpstan/phpstan-strict-rules": "^1.0"
    },
    "autoload": {
       "psr-4": {
-         "": "src/"
+         "frago9876543210\\forms\\": "/src/frago9876543210/forms"
       }
    },
    "config": {
@@ -16,10 +18,10 @@
          "phpstan/extension-installer": true
       }
    },
-   "extra":{
+   "extra": {
       "virion": {
-         "spec": "3.0",
-         "namespace-root": "forms"
+         "namespace-root": "frago9876543210\\forms",
+         "spec": "3.0"
       }
    }
 }

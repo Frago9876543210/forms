@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace forms;
+namespace frago9876543210\forms;
 
-use forms\menu\Button;
+use frago9876543210\forms\menu\Button;
 use pocketmine\form\FormValidationException;
 use pocketmine\player\Player;
 use pocketmine\utils\Utils;

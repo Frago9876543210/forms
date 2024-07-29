@@ -1,6 +1,6 @@
 <?php
 
-namespace forms\element;
+namespace frago9876543210\forms\element;
 
 /**
  * Defines how `BaseSelector` values should be returned. As an index or as string option.

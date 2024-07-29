@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace forms\element;
+namespace frago9876543210\forms\element;
 
 /** @phpstan-extends BaseSelector<int> */
-class StepSlider extends BaseSelector{
+class Dropdown extends BaseSelector{
 
-	protected function getType() : string{ return "step_slider"; }
+	protected function getType() : string{ return "dropdown"; }
 
 	protected function serializeElementData() : array{
 		return [
-			"steps" => $this->options,
+			"options" => $this->options,
 			"default" => $this->default,
 		];
 	}

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace forms;
+namespace frago9876543210\forms;
 
 use pocketmine\form\FormValidationException;
 use pocketmine\player\Player;
